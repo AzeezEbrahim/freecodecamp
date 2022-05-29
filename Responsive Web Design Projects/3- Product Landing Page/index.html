@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f838142837.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo">
+                <img id="header-img" src="https://i.ibb.co/7jJ00yv/IEEE-Logo-Blue.png" alt="ieee logo">
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <ul id="link-container" class="link-container">
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#events">Events</a></li>
+                <li><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <a class="contact-header" href="#contact"><button>Contact</button></a>
+            </ul>
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>IEEE</h1>
+        <h3 class="span loader">
+            <span class="m">T</span>
+            <span class="m">E</span>
+            <span class="m">C</span>
+            <span class="m">H</span>
+            <span class="m">N</span>
+            <span class="m">O</span>
+            <span class="m">L</span>
+            <span class="m">O</span>
+            <span class="m">G</span>
+            <span class="m">I</span>
+            <span class="m">E</span>
+            <span class="m">S</span>
+        </h3>
+        <div class="social-media">
+            <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://www.snapchat.com/" target="_blank"><i class="fa-brands fa-snapchat-square"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <section id="events">
+        <div class="container">
+        <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+        <video autoplay muted loop id="video">
+            <source src="video.mp4" type="video/mp4">
+        </video>    
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur reiciendis optio quia itaque eveniet, amet vel placeat repudiandae distinctio temporibus quod voluptatum a cumque unde alias neque molestiae autem saepe!</p>
+        </div>
+    </section>
+    
+    
+    <section id="about">
+        <div class="container">
+        <ul>
+            <li>chair</li>
+            <li>vice-chair</li>
+        </ul>
+        </div>
+    </section>
+    
+    
+    <section id="contact">
+        <div class="container">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="email">Let's Engage</label>
+            <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
+            <input id="submit" type="submit" value="Sign up!" class="btn">
+        </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur reiciendis optio quia itaque eveniet, amet vel placeat repudiandae distinctio temporibus quod voluptatum a cumque unde alias neque molestiae autem saepe!</p>
+        </div>
+
+    </footer>
+    <script>
+            var lastScrollTop=0;
+            navbar = document.getElementById("nav-bar");
+            navtoggle = document.getElementById("nav-toggle");
+            window.addEventListener("scroll",function(){
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if(scrollTop > lastScrollTop){
+                navbar.style.top = "-100px";
+                navtoggle.checked = false;
+            } else {
+                navbar.style.top = "0";
+            }
+            lastScrollTop = scrollTop;
+            })
+    </script>
+</body>
+</html>
