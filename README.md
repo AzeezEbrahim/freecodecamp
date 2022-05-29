@@ -7,7 +7,7 @@
 - [ ] Product Landing Page  (I'm here)
 - [ ] Technical Documentation Page
 - [ ] Personal Portfolio Webpage
-Responsive%20Web%20Design%20Projects/3-%20Product%20Landing%20Page/index.html
+
 # links
 | Project      | link |
 | ----------- | ----------- |
