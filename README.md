@@ -11,5 +11,5 @@
 # links
 | Project      | link |
 | ----------- | ----------- |
-| Survey Form      |    [Click Here](https://azeezebrahim.github.io/freecodecamp/Responsive%20Web%20Design%20Projects/2-%20Survey%20Form/index.html)   |
-| Product Landing Page   | [Click Here](https://azeezebrahim.github.io/freecodecamp/Responsive%20Web%20Design%20Projects/3-%20Product%20Landing%20Page/index.html) |
+| Survey Form      |   [Live preview](https://azeezebrahim.github.io/freecodecamp/Responsive%20Web%20Design%20Projects/2-%20Survey%20Form/index.html)   |
+| Product Landing Page   | [Live preview](https://azeezebrahim.github.io/freecodecamp/Responsive%20Web%20Design%20Projects/3-%20Product%20Landing%20Page/index.html) |
